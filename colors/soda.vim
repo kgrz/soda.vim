@@ -15,7 +15,7 @@ let g:colors_name = "soda"
 hi Cursor ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#615649 gui=NONE
 hi Visual ctermfg=NONE ctermbg=153 cterm=NONE guifg=NONE guibg=#c2e8ff gui=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
-hi CursorLine ctermfg=NONE ctermbg=254 cterm=NONE guifg=NONE guibg=#e6e6e6 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=#e6e6e6 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=254 cterm=NONE guifg=NONE guibg=#e6e6e6 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=254 cterm=NONE guifg=NONE guibg=#e6e6e6 gui=NONE
 hi LineNr ctermfg=250 ctermbg=NONE cterm=NONE guifg=#aaaaaa guibg=NONE gui=NONE
@@ -23,7 +23,7 @@ hi VertSplit ctermfg=255 ctermbg=254 cterm=NONE guifg=#cecece guibg=#cecece gui=
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold guifg=#61862f guibg=NONE gui=bold
 hi StatusLine ctermfg=0 ctermbg=249 cterm=bold guifg=#000000 guibg=#b5b5b5 gui=bold
 hi StatusLineNC ctermfg=0 ctermbg=249 cterm=NONE guifg=#000000 guibg=#b5b5b5 gui=NONE
-hi Pmenu ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
+hi Pmenu ctermfg=white ctermbg=1 cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=153 cterm=NONE guifg=NONE guibg=#c2e8ff gui=NONE
 hi IncSearch ctermfg=NONE ctermbg=153 cterm=NONE guifg=NONE guibg=#c4daed gui=NONE
 hi Search ctermfg=NONE ctermbg=153 cterm=NONE guifg=NONE guibg=#c4daed gui=NONE
@@ -33,7 +33,7 @@ hi Folded ctermfg=248 ctermbg=15 cterm=NONE guifg=#adadad guibg=#ffffff gui=NONE
 hi Normal ctermfg=240 ctermbg=255 cterm=NONE guifg=#555555 guibg=#ffffff gui=NONE
 hi Boolean ctermfg=97 ctermbg=NONE cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
 hi Character ctermfg=130 ctermbg=NONE cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
-hi Comment ctermfg=248 ctermbg=NONE cterm=NONE guifg=#adadad guibg=NONE gui=NONE
+hi Comment ctermfg=255 ctermbg=6 cterm=NONE guifg=#adadad guibg=NONE gui=NONE
 hi Conditional ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi Constant ctermfg=97 ctermbg=NONE cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
 hi Define ctermfg=161 ctermbg=NONE cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
@@ -42,14 +42,14 @@ hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NON
 hi Float ctermfg=97 ctermbg=NONE cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
 hi Function ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi Identifier ctermfg=235 ctermbg=NONE cterm=NONE guifg=#222222 guibg=NONE gui=italic
-hi Keyword ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
+hi Keyword ctermfg=6 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi Label ctermfg=161 ctermbg=NONE cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
 hi NonText ctermfg=254 ctermbg=255 cterm=NONE guifg=#e0e0e0 guibg=#ffffff gui=NONE
 hi Number ctermfg=97 ctermbg=NONE cterm=NONE guifg=#7653c1 guibg=#f3f2ff gui=NONE
 hi Operator ctermfg=62 ctermbg=NONE cterm=NONE guifg=#626fc9 guibg=NONE gui=NONE
 hi PreProc ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi Special ctermfg=0 ctermbg=NONE cterm=NONE guifg=#000000 guibg=NONE gui=NONE
-hi SpecialKey ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e6e6e6 guibg=NONE gui=NONE
+hi SpecialKey ctermfg=250 ctermbg=NONE cterm=NONE guifg=#e6e6e6 guibg=NONE gui=NONE
 hi Statement ctermfg=64 ctermbg=NONE cterm=NONE guifg=#61862f guibg=NONE gui=NONE
 hi StorageClass ctermfg=235 ctermbg=NONE cterm=NONE guifg=#222222 guibg=NONE gui=italic
 hi String ctermfg=161 ctermbg=NONE cterm=NONE guifg=#bc670f guibg=#fffdf7 gui=NONE
